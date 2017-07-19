@@ -116,6 +116,14 @@ nav a {
       -webkit-animation-duration: 1s;
       visibility: visible;
   }
+.ft-cr {    
+    background-color: rgba(97, 39, 0, 0.7);
+    text-align: center;
+    padding: 50px;
+    width:100%;    
+    margin-top: 25px;
+    color:#FFFFFF;  
+}
   @keyframes slide {
     0% {
       opacity: 0;
