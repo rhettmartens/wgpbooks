@@ -1,0 +1,57 @@
+/*Mobile Stylesheet*/
+@media only screen and (max-width: 736px) {
+    .bgWrap {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 120%;
+    background-size: 120%;
+    background-image: url('moon_Sun.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+   /* body { 
+        background-image:url("SiteAssets/moon_Sun.jpg"); 
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }*/
+.searchbar {
+    visibility: hidden;
+    display: none;
+  }
+.socialMedia h3 {
+    visibility: hidden;
+    display: none; 
+    }
+.socialMedia {
+    visibility: hidden;
+    display: none; 
+    }
+.navbar {
+    margin-top: 0%;
+    }
+} 
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .glyphLogo {
+        font-size: 150px;
+    }
+  }
+@media only screen and (max-width: 736px) {
+    .social-circle, .social-network, .social-network ul, .social-network li, social-network a {
+        visibility: hidden;
+        display: none;
+    }

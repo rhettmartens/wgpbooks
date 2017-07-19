@@ -1,0 +1,138 @@
+/*stylesheet*/
+body {
+    float:left;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    background-image:url("SiteAssets/booksVintage.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.SiteLogo {
+    width: 30%;
+    height:auto;
+    display:inline;
+}
+.companyTitle {
+    display: inline;
+    font-family: 'Amatic SC', cursive;
+    font-size: 86px;
+    padding-top: 10px;  
+}
+.titlebg {
+    color:rgb(97, 39, 0);
+    background-color: rgba(232, 223, 204, .85);
+    margin: 2% 2% 0 2%;
+}
+/*Main Nav*/
+.navbar {
+    background: #d12f1d ;
+    border-color: #bf2a0b;
+    margin-top: 25%;
+}
+nav a {
+    background-color: #b21e0e;
+    border: solid 2px 0 #d12f1d;
+    margin: 2px 0;
+    font-family: 'Special Elite', cursive;
+    font-size: 16px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;  /*Sets the text hover color on navbar*/
+}
+.navbar-default .navbar-nav > li > a {
+   color: white; /*Change active text color here*/
+}
+.navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+.mainArticle {
+    font-family: serif, cursive;
+    font-size: 18px;
+    color:rgb(255, 243, 235);
+    background-color: rgba(97, 39, 0, .85);
+    margin:-40px -15px -15px -15px;
+    padding: 5%;
+}
+.mainArticle h1 {
+    font-family: serif, cursive;
+    font-size: 86px;
+    padding-top: 10px;
+    text-align: center;
+    color:white;
+    background-color: rgba(97, 39, 0, 0.7);
+}
+
+.mainArticle h2, h3, p {
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 30px;
+}
+#about {
+    background-color: rgba(232, 223, 204, .85);
+}
+#servicecontainer {
+    background-color: rgba(97, 39, 0, 0.7);
+}
+.AboutUsImg {
+    width:450px;
+    height: auto;
+}
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }  
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .standardbg {
+      background-color: #f6f6f6;
+  }
+  .logo-small {
+      color: rgba(232, 223, 204, .85);
+      font-size: 65px;
+  }
+  .glyphLogo {
+      color: #f4511e;
+      font-size: 200px;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
